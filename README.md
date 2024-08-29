@@ -41,7 +41,7 @@ or ( IPV4 + IPV6 enable )
 ( IPV4 only + WARP Proxy )
 
   ```html
-  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/JebonRX/V2Remake/main/setup2.sh && chmod +x setup2.sh && sed -i -e 's/\r$//' setup2.sh && screen -S setup2 ./setup2.sh
+  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/JebonRX/V2Remake/main/setup2.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup2.sh && screen -S setup ./setup.sh
   ```
  
  ## Copy & paste 👇👇 to your VPS if ERROR (WG ONLY)
